@@ -34,7 +34,7 @@
 }
 
 .input-container {
-    padding: 16px;
+    padding: 5px;
     background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(255,255,255,0.03));
     width: 80%;
     margin: 0 auto;
@@ -77,14 +77,29 @@
 }
 
 .output-container {
-    padding: 16px;
-    background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(255,255,255,0.001));
     width: 80%;
     height: 500px;
     margin: 0 auto;
-    
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    border-radius: 15px;
+}
+
+.output-container ul {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.output-container li {
+    border-radius: 10px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    border: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+.output-container li input {
+    width: 8%;
 }
