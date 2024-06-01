@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My To Do's</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ddb184e36.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="app">
-            <h1>Task Manager</h1>
+            <h1>Task Manager<i class="fa-regular fa-square-check"></i></h1>
             <div class="input-container" id="inputContainer">
                 <input id="inputText" type="text" placeholder="Create a new task...">
                 <button id="inputButton">Add</button>
             </div>
             <div class="output-container">
                 <ul id="outputList"></ul>
-            </div> 
+            </div>
+            <button id="delete-btn" onclick="hideBtn()">Clear List</button>
         </div>
-        
     </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
